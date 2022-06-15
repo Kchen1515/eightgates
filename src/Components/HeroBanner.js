@@ -3,28 +3,28 @@ import { Box, Typography, Button} from '@mui/material'
 import KM from '../Assests/images/KM.jpg'
 
 
-
 const HeroBanner = () => {
+
   return (
     <Box sx={{
       mt: {lg:"212px", xs: '70px'},
       ml: {sm: '50px'}
     }} position="relative" p="20px">
       <Typography 
-          color="#FF2625"
+          color="#356358"
           fontWeight={'600'}
           fontSize='26px'
       >
-        Fitness Club
+        Eight Gates Fitness 
       </Typography>
       <Typography fontWeight={"700"} sx={{fontSize: {lg: '44px', xs:'40px'}}} mb="23px" mt="30px">
-        Sweat, Smile <br/> and Repeat
+        "My motto is to be stronger <br/> than yesterday <br/> if I have to I'll be stronger <br/> than half a day ago, <br/> even a minute ago!" 
       </Typography>
       <Typography fontSize="22px" lineHeight={'35px'} mb={5}>
-        Check Out the Most Effective Exercises
+        Open the Gate of Limit with the Most Effective Exercises 
       </Typography>
-      <Button href='#exercises'variant="contained" color='error'
-        sx={{backgroundColor: '#ff2625', padding:'10px'}}
+      <Button href='#exercises'variant="contained" className="explore" style={{background: "#356358", color: "orange"}}
+        sx={{backgroundColor: '#356358', padding:'10px'}}
         >Explore Exercises
       </Button>
       <Typography

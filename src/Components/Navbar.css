@@ -1,0 +1,13 @@
+.Lee{
+    max-width: 75px;
+    border-radius: 20px;
+}
+
+
+.exercise:hover{
+    border-bottom: 3px solid #859174;
+    color: black;
+}
+.explore:hover{
+    background: black;
+}
