@@ -6,15 +6,15 @@ import BodyPart from './BodyPart'
 import ExerciseCard from './ExerciseCard';
 
 
-import RightArrowIcon from '../Assests/Icons/right-arrow.png';
-import LeftArrowIcon from '../Assests/Icons/left-arrow.png'
+import  Left from '../Assests/Icons/lefta.png';
+import  Right from '../Assests/Icons/righta.png'
 
 const LeftArrow = () => {
   const { scrollPrev } = useContext(VisibilityContext);
 
   return (
     <Typography onClick={() => scrollPrev()} className="right-arrow">
-      <img src={LeftArrowIcon} alt="right-arrow" />
+      <img src={Left} alt="right-arrow" />
     </Typography>
   );
 };
@@ -24,7 +24,7 @@ const RightArrow = () => {
 
   return (
     <Typography onClick={() => scrollNext()} className="left-arrow">
-      <img src={RightArrowIcon} alt="right-arrow" />
+      <img src={Right} alt="right-arrow" />
     </Typography>
   );
 };

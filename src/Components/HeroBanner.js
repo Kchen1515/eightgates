@@ -13,11 +13,11 @@ const HeroBanner = () => {
       <Typography 
           color="#356358"
           fontWeight={'600'}
-          fontSize='26px'
+          fontSize='55px'
       >
         Eight Gates Fitness 
       </Typography>
-      <Typography fontWeight={"700"} sx={{fontSize: {lg: '44px', xs:'40px'}}} mb="23px" mt="30px">
+      <Typography fontWeight={"700"} sx={{fontSize: {lg: '40px', xs:'36px'}}} mb="23px" mt="30px">
         "My motto is to be stronger <br/> than yesterday <br/> if I have to I'll be stronger <br/> than half a day ago, <br/> even a minute ago!" 
       </Typography>
       <Typography fontSize="22px" lineHeight={'35px'} mb={5}>
@@ -25,18 +25,18 @@ const HeroBanner = () => {
       </Typography>
       <Button href='#exercises'variant="contained" className="explore" style={{background: "#356358", color: "orange"}}
         sx={{backgroundColor: '#356358', padding:'10px'}}
-        >Explore Exercises
+        >Explore Exercises 
       </Button>
       <Typography
         fontWeight={600}
-        color="#ff2625" 
+        color="#356358" 
         sx={{
           opacity: 0.2,
           display: {lg: 'block', xs: 'none'}
         }}
         fontSize="200px"
         >
-        Exercise
+        POWER
       </Typography>
       <img src={KM} alt='best friends' className="hero-banner-img"/> 
     </Box>
